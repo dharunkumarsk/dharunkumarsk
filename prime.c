@@ -1,0 +1,22 @@
+{
+	clrscr();
+	int num,d,count=0;
+	scanf("%d",&num);
+	for(d=2;d<num;d++)
+	{
+		if(num%d==0)
+		{
+			count++;
+			break;
+		}
+	}
+	if(count==0)
+	{
+		printf("yes");
+	}
+	else
+	{
+		printf("no");
+	}
+	getch();
+}
